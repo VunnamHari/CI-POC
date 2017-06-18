@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>My Daily Expenses</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>My Daily Expenses</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Name --></label>
+        <name>Expense_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Type --></label>
+        <name>Expense_Type__c</name>
+        <picklistValues>
+            <masterLabel>Clothing and Footwear</masterLabel>
+            <translation><!-- Clothing and Footwear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation><!-- Electronics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Beverages</masterLabel>
+            <translation><!-- Food &amp; Beverages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Groceries</masterLabel>
+            <translation><!-- Groceries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
